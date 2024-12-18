@@ -33,4 +33,4 @@ MonoBehaviour:
   - text: "\u0421\u043E\u0433\u043B\u0430\u0441\u0435\u2026"
     speaker: {fileID: 11400000, guid: d491d4ab452cf45f0aeb37a62d2e8182, type: 2}
   background: {fileID: 9048604711594759372, guid: ae53305f2fee745dca8a87d48301cf73, type: 3}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 7129afeb1233c4156b7bcf5c27695be9, type: 2}
