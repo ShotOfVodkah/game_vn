@@ -11,10 +11,40 @@ public class BottomBarController : MonoBehaviour
     private int sentenceIndex = -1;
     private StoryScene currentScene;
     private State state = State.COMPLETED;
+    public Animator animator;
+    private bool isHidden = false;
+
     private enum State
     {
         PLAYING,
         COMPLETED
+    }
+
+    private void Start()
+    {
+        animator = GetComponent<Animator>();
+    }
+
+    public void Hide()
+    {
+        if (!isHidden)
+        {
+            animator.SetTrigger("Hide");
+            isHidden = true;
+        }
+    }
+
+    public void Show()
+    {
+        animator.SetTrigger("Show");
+        isHidden = false;
+    }
+
+    public void ClearText()
+    {
+        barText.text = "";
+        personNameText.text = "";
+
     }
 
     public void PlayScene(StoryScene scene)
@@ -24,11 +54,16 @@ public class BottomBarController : MonoBehaviour
         PlayNextSentence();
     }
 
+   
     public void PlayNextSentence()
     {
         StartCoroutine(TypeText(currentScene.sentences[++sentenceIndex].text));
         personNameText.text = currentScene.sentences[sentenceIndex].speaker.speakerName;
         personNameText.color = currentScene.sentences[sentenceIndex].speaker.textColor;
+        if (sentenceIndex == 0)
+        {
+            animator.SetTrigger("Showname");
+        }
     }
 
     public bool IsCompleted()
