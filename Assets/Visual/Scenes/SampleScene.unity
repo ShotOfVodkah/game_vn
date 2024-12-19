@@ -213,6 +213,7 @@ MonoBehaviour:
   barText: {fileID: 256318212}
   personNameText: {fileID: 1144860421}
   animator: {fileID: 0}
+  spritesPrefab: {fileID: 524445670}
 --- !u!95 &64819026
 Animator:
   serializedVersion: 7
@@ -642,6 +643,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1616886111}
+  - {fileID: 524445671}
   - {fileID: 64819022}
   - {fileID: 1313330201}
   m_Father: {fileID: 0}
@@ -666,7 +668,7 @@ MonoBehaviour:
   currentScene: {fileID: 11400000, guid: 1ffff50a6fd784c88b2ebdb17ce0d8c6, type: 2}
   prevScene: {fileID: 0}
   bottomBar: {fileID: 64819025}
-  backgroundController: {fileID: 1616886112}
+  backgroundController: {fileID: 0}
   chooseController: {fileID: 1313330204}
 --- !u!114 &359915081
 MonoBehaviour:
@@ -843,6 +845,41 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &524445670
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 524445671}
+  m_Layer: 5
+  m_Name: "\u0421haracters"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &524445671
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524445670}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 359915079}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -1241,9 +1278,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   IsSwitched: 0
-  background1: {fileID: 139937973}
-  background2: {fileID: 287694397}
-  animator: {fileID: 1616886113}
+  image1: {fileID: 139937973}
+  image2: {fileID: 287694397}
 --- !u!95 &1616886113
 Animator:
   serializedVersion: 7

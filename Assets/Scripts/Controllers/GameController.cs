@@ -67,6 +67,13 @@ public class GameController : MonoBehaviour
             yield return new WaitForSeconds(1f);
             if ( prevScene == null || Storyscene.background != prevScene.background)
             {
+                foreach (var spriteController in bottomBar.sprites.Values)
+                {
+                    if (spriteController != null)
+                    {
+                        spriteController.Hide();
+                    }
+                }
                 backgroundController.SwitchImage(Storyscene.background);
                 yield return new WaitForSeconds(1f);
             }

@@ -6,7 +6,7 @@ using System;
 
 public class Globals
 {
-    public static bool fromChoose = false; // Глобальная переменная
+    public static bool fromChoose = false;
 }
 
 
@@ -45,8 +45,7 @@ public class ChooseController : MonoBehaviour
 
     private float CalculateLabelPosition(int labelIndex, int labelCount)
     {
-        // Вычисляем начальную точку для всех элементов
-        float spacingFactor = 0.6f; // Фактор для расстояний между вариантами
+        float spacingFactor = 0.6f;
         float totalHeight = labelHeight * spacingFactor * labelCount;
         float startOffset = -totalHeight / 2 + (labelHeight * spacingFactor) / 2;
 
