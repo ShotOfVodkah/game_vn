@@ -14,7 +14,10 @@ public class GameController : MonoBehaviour
     public BackgroundController backgroundController;
     public ChooseController chooseController;
     public Button menuButton;
+    public Button enableCommentsButton;
+    public Button disableCommentsButton;
     public Animator animator;
+    private bool comments = false;
 
     public DataHolder data;
     public string menuScene;
@@ -33,6 +36,15 @@ public class GameController : MonoBehaviour
         if (menuButton != null)
         {
             menuButton.onClick.AddListener(ReturnToMenu);
+        }
+        if (enableCommentsButton != null)
+        {
+            enableCommentsButton.onClick.AddListener(EnableComments);
+        }
+
+        if (disableCommentsButton != null)
+        {
+            disableCommentsButton.onClick.AddListener(DisableComments);
         }
         if (SaveManager.IsGameSaved())
         {
@@ -55,12 +67,30 @@ public class GameController : MonoBehaviour
             backgroundController.SetImage((currentScene as StoryScene).background);
         }
     }
+    private void EnableComments()
+    {
+        comments = true;
+        enableCommentsButton.interactable = false;
+        menuButton.interactable = false;
+        animator.SetTrigger("CAppear");
+        bottomBar.animator.SetTrigger("Hide");
+    }
+
+    private void DisableComments()
+    {
+        comments = false;
+        enableCommentsButton.interactable = true;
+        menuButton.interactable = true;
+        animator.SetTrigger("CDisappear");
+        bottomBar.animator.SetTrigger("Show");
+    }
+
 
     void Update()
     {
         float leftMargin = 0f;
         float rightMargin = 0f;
-        float topMargin = 100f;
+        float topMargin = 300f;
         float bottomMargin = 0f;
 
         Rect allowedArea = new Rect(
@@ -69,7 +99,7 @@ public class GameController : MonoBehaviour
             Screen.width - leftMargin - rightMargin,    
             Screen.height - topMargin - bottomMargin 
         );
-        if ((Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space)) && IsMouseInAllowedArea(allowedArea))
+        if ((Input.GetMouseButtonDown(0) || Input.GetKeyDown(KeyCode.Space)) && IsMouseInAllowedArea(allowedArea) && !comments )
         {
             if (state == State.IDLE && bottomBar.IsCompleted())
             {
