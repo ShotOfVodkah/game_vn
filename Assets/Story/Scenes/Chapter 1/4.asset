@@ -88,7 +88,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 2b91de788009343539d128e793daded2, type: 2}
-      spriteIndex: 4
+      spriteIndex: 0
       actionType: 2
       coords: {x: 300, y: -300}
       moveSpeed: 0

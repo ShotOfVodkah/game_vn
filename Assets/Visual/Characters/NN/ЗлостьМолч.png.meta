@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: -1490811079822975684
     second: "\u0417\u043B\u043E\u0441\u0442\u044C\u041C\u043E\u043B\u0447_3"
+  - first:
+      213: 2867113686111731586
+    second: "\u0417\u043B\u043E\u0441\u0442\u044C\u041C\u043E\u043B\u0447_4"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,10 +128,10 @@ TextureImporter:
       name: "\u0417\u043B\u043E\u0441\u0442\u044C\u041C\u043E\u043B\u0447_0"
       rect:
         serializedVersion: 2
-        x: 1092
-        y: 125
-        width: 1126
-        height: 3743
+        x: 1076
+        y: 139
+        width: 1070
+        height: 3556
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,9 +150,9 @@ TextureImporter:
       name: "\u0417\u043B\u043E\u0441\u0442\u044C\u041C\u043E\u043B\u0447_1"
       rect:
         serializedVersion: 2
-        x: 1802
-        y: 3865
-        width: 20
+        x: 1751
+        y: 3692
+        width: 19
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -169,10 +172,10 @@ TextureImporter:
       name: "\u0417\u043B\u043E\u0441\u0442\u044C\u041C\u043E\u043B\u0447_2"
       rect:
         serializedVersion: 2
-        x: 1816
-        y: 3860
-        width: 22
-        height: 8
+        x: 1764
+        y: 3690
+        width: 16
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +194,10 @@ TextureImporter:
       name: "\u0417\u043B\u043E\u0441\u0442\u044C\u041C\u043E\u043B\u0447_3"
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 2727
-        width: 7
-        height: 13
+        x: 1083
+        y: 2611
+        width: 8
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,6 +208,28 @@ TextureImporter:
       bones: []
       spriteID: c3d5fe7b8339f4be0800000000000000
       internalID: -1490811079822975684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0417\u043B\u043E\u0441\u0442\u044C\u041C\u043E\u043B\u0447_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3270
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fb957f4b80ac720800000000000000
+      internalID: 2867113686111731586
       vertices: []
       indices: 
       edges: []

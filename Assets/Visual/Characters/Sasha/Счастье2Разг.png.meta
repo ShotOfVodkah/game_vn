@@ -5,6 +5,9 @@ TextureImporter:
   - first:
       213: -576265276538759995
     second: "\u0421\u0447\u0430\u0441\u0442\u044C\u04352\u0420\u0430\u0437\u0433_0"
+  - first:
+      213: -4261682562014221462
+    second: "\u0421\u0447\u0430\u0441\u0442\u044C\u04352\u0420\u0430\u0437\u0433_1"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -116,10 +119,10 @@ TextureImporter:
       name: "\u0421\u0447\u0430\u0441\u0442\u044C\u04352\u0420\u0430\u0437\u0433_0"
       rect:
         serializedVersion: 2
-        x: 221
-        y: 129
-        width: 736
-        height: 2209
+        x: 982
+        y: 127
+        width: 1196
+        height: 3572
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,6 +133,28 @@ TextureImporter:
       bones: []
       spriteID: 5c4d38fb8c1b008f0800000000000000
       internalID: -576265276538759995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0421\u0447\u0430\u0441\u0442\u044C\u04352\u0420\u0430\u0437\u0433_1"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3270
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b6aa90a467bd4c0800000000000000
+      internalID: -4261682562014221462
       vertices: []
       indices: 
       edges: []

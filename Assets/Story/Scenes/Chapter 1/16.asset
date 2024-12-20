@@ -30,7 +30,7 @@ MonoBehaviour:
       coords: {x: -300, y: -300}
       moveSpeed: 0
     - speaker: {fileID: 11400000, guid: f3c1b6f444286427f938de37ace8525e, type: 2}
-      spriteIndex: 4
+      spriteIndex: 0
       actionType: 2
       coords: {x: 300, y: -300}
       moveSpeed: 0

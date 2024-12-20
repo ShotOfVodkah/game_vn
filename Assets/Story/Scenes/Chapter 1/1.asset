@@ -22,7 +22,7 @@ MonoBehaviour:
       \u0433\u0440\u0443\u043F\u043F\u0438\u0440\u043E\u0432\u043A\u0430\u043C\u0438?"
     speaker: {fileID: 11400000, guid: d2faa503922ff4cf5af06183c536a4a5, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: 9a96d78c7085246e1b305425871723c8, type: 2}
+    - speaker: {fileID: 11400000, guid: ddf999ad8a33346b58d810a40315adc8, type: 2}
       spriteIndex: 0
       actionType: 2
       coords: {x: -300, y: -300}
@@ -35,12 +35,12 @@ MonoBehaviour:
   - text: "\u0421\u043E\u0433\u043B\u0430\u0441\u043D\u0430."
     speaker: {fileID: 11400000, guid: 9a96d78c7085246e1b305425871723c8, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: 9a96d78c7085246e1b305425871723c8, type: 2}
+    - speaker: {fileID: 11400000, guid: ddf999ad8a33346b58d810a40315adc8, type: 2}
       spriteIndex: 1
       actionType: 1
       coords: {x: -200, y: -300}
       moveSpeed: 100
-    - speaker: {fileID: 11400000, guid: 9a96d78c7085246e1b305425871723c8, type: 2}
+    - speaker: {fileID: 11400000, guid: ddf999ad8a33346b58d810a40315adc8, type: 2}
       spriteIndex: 1
       actionType: 0
       coords: {x: 0, y: 0}
@@ -53,7 +53,7 @@ MonoBehaviour:
       \u0435\u0451 \u0438 \u043E\u0431\u0435\u0441\u043F\u0435\u0447\u0438\u0432\u0430\u0442\u044C?"
     speaker: {fileID: 11400000, guid: d2faa503922ff4cf5af06183c536a4a5, type: 2}
     actions:
-    - speaker: {fileID: 11400000, guid: 9a96d78c7085246e1b305425871723c8, type: 2}
+    - speaker: {fileID: 11400000, guid: ddf999ad8a33346b58d810a40315adc8, type: 2}
       spriteIndex: 0
       actionType: 0
       coords: {x: -200, y: -300}

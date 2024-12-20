@@ -14,6 +14,9 @@ TextureImporter:
   - first:
       213: -8304812386776783565
     second: "\u0411\u0430\u0437\u0430\u0420\u0430\u0437\u0433_3"
+  - first:
+      213: 6005997616199992829
+    second: "\u0411\u0430\u0437\u0430\u0420\u0430\u0437\u0433_4"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -125,10 +128,10 @@ TextureImporter:
       name: "\u0411\u0430\u0437\u0430\u0420\u0430\u0437\u0433_0"
       rect:
         serializedVersion: 2
-        x: 1092
-        y: 125
-        width: 1197
-        height: 3743
+        x: 1076
+        y: 139
+        width: 1137
+        height: 3556
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -147,9 +150,9 @@ TextureImporter:
       name: "\u0411\u0430\u0437\u0430\u0420\u0430\u0437\u0433_1"
       rect:
         serializedVersion: 2
-        x: 1802
-        y: 3865
-        width: 20
+        x: 1751
+        y: 3692
+        width: 19
         height: 7
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -169,10 +172,10 @@ TextureImporter:
       name: "\u0411\u0430\u0437\u0430\u0420\u0430\u0437\u0433_2"
       rect:
         serializedVersion: 2
-        x: 1816
-        y: 3860
-        width: 22
-        height: 8
+        x: 1764
+        y: 3690
+        width: 16
+        height: 6
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +194,10 @@ TextureImporter:
       name: "\u0411\u0430\u0437\u0430\u0420\u0430\u0437\u0433_3"
       rect:
         serializedVersion: 2
-        x: 1100
-        y: 2727
-        width: 7
-        height: 13
+        x: 1083
+        y: 2611
+        width: 8
+        height: 12
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -205,6 +208,28 @@ TextureImporter:
       bones: []
       spriteID: 335e7ef82216fbc80800000000000000
       internalID: -8304812386776783565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "\u0411\u0430\u0437\u0430\u0420\u0430\u0437\u0433_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3270
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df58173c207995350800000000000000
+      internalID: 6005997616199992829
       vertices: []
       indices: 
       edges: []

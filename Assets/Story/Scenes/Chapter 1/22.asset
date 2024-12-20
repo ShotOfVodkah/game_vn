@@ -30,12 +30,12 @@ MonoBehaviour:
       coords: {x: -200, y: -300}
       moveSpeed: 0
     - speaker: {fileID: 11400000, guid: 684a5232465fb471987524e6c56e35e6, type: 2}
-      spriteIndex: 2
+      spriteIndex: 0
       actionType: 2
       coords: {x: 300, y: -300}
       moveSpeed: 0
     - speaker: {fileID: 11400000, guid: 684a5232465fb471987524e6c56e35e6, type: 2}
-      spriteIndex: 2
+      spriteIndex: 0
       actionType: 1
       coords: {x: 200, y: -300}
       moveSpeed: 120
@@ -50,7 +50,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: 684a5232465fb471987524e6c56e35e6, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: 684a5232465fb471987524e6c56e35e6, type: 2}
-      spriteIndex: 3
+      spriteIndex: 1
       actionType: 0
       coords: {x: 0, y: 0}
       moveSpeed: 0
@@ -64,12 +64,12 @@ MonoBehaviour:
       coords: {x: 0, y: 0}
       moveSpeed: 0
     - speaker: {fileID: 11400000, guid: 684a5232465fb471987524e6c56e35e6, type: 2}
-      spriteIndex: 2
+      spriteIndex: 0
       actionType: 1
       coords: {x: 400, y: -300}
       moveSpeed: 120
     - speaker: {fileID: 11400000, guid: 684a5232465fb471987524e6c56e35e6, type: 2}
-      spriteIndex: 2
+      spriteIndex: 0
       actionType: 3
       coords: {x: 400, y: -300}
       moveSpeed: 120

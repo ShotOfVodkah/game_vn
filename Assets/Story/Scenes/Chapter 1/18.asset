@@ -48,7 +48,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: f3c1b6f444286427f938de37ace8525e, type: 2}
-      spriteIndex: 6
+      spriteIndex: 0
       actionType: 0
       coords: {x: 0, y: 0}
       moveSpeed: 0
@@ -103,20 +103,10 @@ MonoBehaviour:
       actionType: 3
       coords: {x: 0, y: 0}
       moveSpeed: 0
-    - speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
-      spriteIndex: 2
-      actionType: 0
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
   - text: "\u0420\u0430\u0432\u0448\u0430\u043D \u0442\u043E\u0436\u0435 \u0432\u0441\u0451
       \u043F\u043E\u043D\u044F\u043B \u0438 \u0431\u044B\u043B \u0432 \u044F\u0440\u043E\u0441\u0442\u0438."
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
-    actions:
-    - speaker: {fileID: 11400000, guid: f3c1b6f444286427f938de37ace8525e, type: 2}
-      spriteIndex: 2
-      actionType: 0
-      coords: {x: 0, y: 0}
-      moveSpeed: 0
+    actions: []
   - text: "\u042D\u0442\u043E \u0442\u043E\u0447\u043D\u043E \u0431\u044B\u043B \u043E\u043D!
       \u041E\u043D, \u044F \u0442\u0435\u0431\u0435 \u0433\u043E\u0432\u043E\u0440\u044E! 
       \u041E\u043D \u0442\u0435\u0431\u044F \u0432\u0441\u0435\u0433\u0434\u0430
@@ -127,7 +117,7 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: f3c1b6f444286427f938de37ace8525e, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: f3c1b6f444286427f938de37ace8525e, type: 2}
-      spriteIndex: 3
+      spriteIndex: 1
       actionType: 0
       coords: {x: 0, y: 0}
       moveSpeed: 0
@@ -136,12 +126,12 @@ MonoBehaviour:
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
     actions:
     - speaker: {fileID: 11400000, guid: f3c1b6f444286427f938de37ace8525e, type: 2}
-      spriteIndex: 2
+      spriteIndex: 0
       actionType: 0
       coords: {x: 0, y: 0}
       moveSpeed: 0
     - speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
-      spriteIndex: 3
+      spriteIndex: 1
       actionType: 0
       coords: {x: 0, y: 0}
       moveSpeed: 0
