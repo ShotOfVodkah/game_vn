@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Dima
+  m_EditorClassIdentifier: 
+  speakerName: "\u0414\u0438\u043C\u0430"
+  textColor: {r: 1, g: 1, b: 1, a: 0}
+  sprites:
+  - {fileID: 411226433425082281, guid: 2f33befa93a15418ab704281976ae72b, type: 3}
+  - {fileID: 3565804593957220266, guid: 81f7ec4f3b8554ebbb53737de687b0b8, type: 3}
+  - {fileID: 1652486098413279982, guid: ba8cbba2c05084dbc82613933806e855, type: 3}
+  - {fileID: 4822185857746830874, guid: 7ba7ac0b8e8814fe6a7daf790adfdbc9, type: 3}
+  - {fileID: -4911430856419319194, guid: fff0ce5d967a444458de5e5f57de6648, type: 3}
+  - {fileID: 7506134621968302627, guid: aa072bbe6604e4625ae7dee505967b5b, type: 3}
+  prefab: {fileID: 168943940898917333, guid: e7f296d5478574441955c77714e788b3, type: 3}

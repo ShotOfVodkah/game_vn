@@ -74,6 +74,7 @@ public class GameController : MonoBehaviour
                         spriteController.Hide();
                     }
                 }
+                bottomBar.sprites.Clear();
                 backgroundController.SwitchImage(Storyscene.background);
                 yield return new WaitForSeconds(1f);
             }

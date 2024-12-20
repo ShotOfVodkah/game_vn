@@ -14,3 +14,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speakerName: "\u041C\u0430\u043C\u0430"
   textColor: {r: 1, g: 1, b: 1, a: 1}
+  sprites:
+  - {fileID: 411226433425082281, guid: d31f7b01b42af4bbc9e5b4ebf3250f89, type: 3}
+  - {fileID: 3565804593957220266, guid: 98946cb3550f64044b3afcfd60cdf574, type: 3}
+  - {fileID: 5709515109812305373, guid: 142dfffd2c19f4a028b74ff6dd3a6ffb, type: 3}
+  - {fileID: -6263625304533864294, guid: 83bd45c370cca44e69669e38f5d0b0d4, type: 3}
+  - {fileID: 1652486098413279982, guid: a53b23a62a2de4df58117d3e7ae5b590, type: 3}
+  - {fileID: 4822185857746830874, guid: f9a0b43005c07484db61089953191317, type: 3}
+  - {fileID: -4911430856419319194, guid: d5a042aa1a87948818d53423ba0efac3, type: 3}
+  - {fileID: 7506134621968302627, guid: b98ffed9e640040cb8d9f0c37c2b424a, type: 3}
+  prefab: {fileID: 445006378392203519, guid: 319c9fbe48e154ac79a32264d795a76d, type: 3}

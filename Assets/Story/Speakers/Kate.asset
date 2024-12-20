@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Kate
+  m_EditorClassIdentifier: 
+  speakerName: "\u041A\u0430\u0442\u044F"
+  textColor: {r: 1, g: 1, b: 1, a: 1}
+  sprites:
+  - {fileID: -8079267269446438800, guid: 14182137db72e41ef8788b0cb2e6adc0, type: 3}
+  - {fileID: 3565804593957220266, guid: 5c1ffe63847f94ad2a03536018d81ef0, type: 3}
+  - {fileID: 5709515109812305373, guid: 4748ee380314e449c84defc10acf96bc, type: 3}
+  - {fileID: -6263625304533864294, guid: f82ac1a26774643e48934ba25cb811c1, type: 3}
+  - {fileID: 1652486098413279982, guid: d6e48bc912a99419c8ba7dc5686b8739, type: 3}
+  - {fileID: 4822185857746830874, guid: 8451cadb30add4cbba7426bc7c080431, type: 3}
+  - {fileID: -4911430856419319194, guid: 4ab3e24b6aaf3427da7fd352b8b5f551, type: 3}
+  - {fileID: 7506134621968302627, guid: 83d417fe51ca7433c94b5fe197900e4c, type: 3}
+  prefab: {fileID: 6514151039730694263, guid: 4740de942ff144cd392dce1af5b6aa30, type: 3}

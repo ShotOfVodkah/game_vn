@@ -27,11 +27,21 @@ MonoBehaviour:
       \u0421\u0440\u0435\u0434\u0438 \u043C\u0430\u043B\u043E\u0437\u043D\u0430\u043A\u043E\u043C\u044B\u0445
       \u043B\u0438\u0446 \u044F \u0437\u0430\u043C\u0435\u0442\u0438\u043B \u0435\u0451."
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+      spriteIndex: 0
+      actionType: 3
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
   - text: "\u041A\u0430\u0442\u044F\u2026  \u0422\u0430\u043A\u0430\u044F \u0437\u0430\u0433\u0430\u0434\u043E\u0447\u043D\u0430\u044F,
       \u0442\u0430\u043A\u0430\u044F \u043A\u0440\u0430\u0441\u0438\u0432\u0430\u044F\u2026 "
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: 684a5232465fb471987524e6c56e35e6, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 500, y: -300}
+      moveSpeed: 0
   - text: "\u041E\u043D\u0430 \u0441 \u0438\u043D\u0442\u0435\u0440\u0435\u0441\u043E\u043C
       \u043D\u0430\u0431\u043B\u044E\u0434\u0430\u043B\u0430 \u0437\u0430 \u0432\u043E\u0440\u043E\u0431\u044C\u044F\u043C\u0438,
       \u0441\u0438\u0434\u044F\u0449\u0438\u043C\u0438 \u043D\u0430 \u043A\u0430\u0440\u043D\u0438\u0437\u0435
@@ -81,6 +91,11 @@ MonoBehaviour:
       \u043D\u0430\u0447\u0430\u043B\u0438 \u0432\u0433\u043E\u043D\u044F\u0442\u044C
       \u043C\u0435\u043D\u044F \u0432 \u043A\u0440\u0430\u0441\u043A\u0443.   "
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
-    actions: []
+    actions:
+    - speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 100000, y: 0}
+      moveSpeed: 0
   background: {fileID: 5120224674601135964, guid: 3d0184bbcdf9a47bf9ed457bd01233f4, type: 3}
-  nextScene: {fileID: 0}
+  nextScene: {fileID: 11400000, guid: 76e62edced3cf4a1daf72dcf8eaa22f4, type: 2}

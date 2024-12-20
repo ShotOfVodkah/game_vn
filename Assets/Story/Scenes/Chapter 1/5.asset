@@ -16,9 +16,21 @@ MonoBehaviour:
   - text: "\u0421\u043F\u0430\u0441\u0438\u0431\u043E, \u0441 \u043C\u0435\u043D\u044F
       \u0431\u0443\u043B\u043E\u0447\u043A\u0430 \u0432 \u0441\u0442\u043E\u043B\u043E\u0432\u043E\u0439!"
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+      spriteIndex: 7
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
   - text: "\u0417\u0430 \u0440\u0430\u0437\u0433\u043E\u0432\u043E\u0440\u0430\u043C\u0438
       \u043E \u0434\u043E\u043C\u0430\u0448\u043A\u0435 \u043C\u044B \u043D\u0435\u0437\u0430\u043C\u0435\u0442\u043D\u043E
       \u0434\u043E\u0448\u043B\u0438 \u0434\u043E \u0448\u043A\u043E\u043B\u044B."
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+      spriteIndex: 6
+      actionType: 0
+      coords: {x: 0, y: 0}
+      moveSpeed: 0
   background: {fileID: 4777861783574383369, guid: 8fd77444da43547f6a75d1b6a77d9270, type: 3}
   nextScene: {fileID: 11400000, guid: d1e114ebd71e54463801f9f6e150c46e, type: 2}

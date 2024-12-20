@@ -19,5 +19,11 @@ MonoBehaviour:
       \u0436\u0435 \u043F\u0440\u0438\u0433\u043E\u0442\u043E\u0432\u0438\u043B \u043C\u043D\u0435
       \u0441\u0435\u0433\u043E\u0434\u043D\u044F\u0448\u043D\u0438\u0439 \u0434\u0435\u043D\u044C."
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: -200, y: -300}
+      moveSpeed: 100
   background: {fileID: 5120224674601135964, guid: 3d0184bbcdf9a47bf9ed457bd01233f4, type: 3}
   nextScene: {fileID: 11400000, guid: b580ec4c9516641b699fcf1d4d19b12e, type: 2}

@@ -18,5 +18,21 @@ MonoBehaviour:
       \u043E\u0434\u043D\u043E\u043A\u043B\u0430\u0441\u0441\u043D\u0438\u043A\u043E\u0432
       \u0438 \u0438\u0441\u0447\u0435\u0437\u043B\u0430. "
     speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+    actions:
+    - speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: 100, y: -300}
+      moveSpeed: 0
+    - speaker: {fileID: 11400000, guid: cdc41b0e4f7354e22b9b0aadea85a9f9, type: 2}
+      spriteIndex: 0
+      actionType: 1
+      coords: {x: 0, y: -300}
+      moveSpeed: 100
+    - speaker: {fileID: 11400000, guid: 2b91de788009343539d128e793daded2, type: 2}
+      spriteIndex: 0
+      actionType: 2
+      coords: {x: -100000, y: -300}
+      moveSpeed: 100
   background: {fileID: 5120224674601135964, guid: 3d0184bbcdf9a47bf9ed457bd01233f4, type: 3}
   nextScene: {fileID: 11400000, guid: f3ac14ff152c249418c94659e6a8bb61, type: 2}

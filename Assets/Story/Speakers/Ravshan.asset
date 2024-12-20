@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0e6a862dae1ccf488ae4d4570f9f88c, type: 3}
+  m_Name: Ravshan
+  m_EditorClassIdentifier: 
+  speakerName: "\u0420\u0430\u0432\u0448\u0430\u043D"
+  textColor: {r: 1, g: 1, b: 1, a: 0}
+  sprites:
+  - {fileID: 411226433425082281, guid: e0b2fb0b80d4d4669adeebc4ab07a428, type: 3}
+  - {fileID: 3565804593957220266, guid: f689a4dfdbf6a4b6197ccc4d435f320c, type: 3}
+  - {fileID: 5709515109812305373, guid: 0d4da7eb24c154d0ea1567478f400721, type: 3}
+  - {fileID: -6263625304533864294, guid: 22ee4fa9d355d43029b84c7b32d768d6, type: 3}
+  - {fileID: 1652486098413279982, guid: 542d75a847913405c81b6a105802afb5, type: 3}
+  - {fileID: 4822185857746830874, guid: 8d63a6276a23b460db6d8725ac1fbe48, type: 3}
+  - {fileID: -4911430856419319194, guid: 94df96ed2c94949f7a02863b6947613c, type: 3}
+  - {fileID: 7506134621968302627, guid: 4871c33782cec4d5ba442d50819ac189, type: 3}
+  prefab: {fileID: 7430512778338393900, guid: 8f0899a02dee0452b8550cbb2397a648, type: 3}
