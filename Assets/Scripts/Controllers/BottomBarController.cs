@@ -38,6 +38,16 @@ public class BottomBarController : MonoBehaviour
         }
     }
 
+    public int GetSentenceIndex()
+    {
+        return sentenceIndex;
+    }
+
+    public void SetSentenceIndex(int sentenceIndex)
+    {
+        this.sentenceIndex = sentenceIndex;
+    }
+
     public void Show()
     {
         animator.SetTrigger("Show");

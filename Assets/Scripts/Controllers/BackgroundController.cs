@@ -28,6 +28,7 @@ public class BackgroundController : MonoBehaviour
 
     public void SetImage(Sprite sprite)
     {
+        Debug.Log("SettingImage");
         if (!IsSwitched)
         {
             background2.sprite = sprite;
